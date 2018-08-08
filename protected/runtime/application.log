@@ -1,0 +1,554 @@
+2018/08/07 20:38:21 [error] [exception.CException] CException: CAssetManager.basePath "/opt/lampp/htdocs/Proyectos/alquilervehiculoud/assets" es inválido. Asegúrese que el directorio exista y tenga permisos de escritura por el proceso que corre el servidor Web. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CAssetManager.php:138
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CAssetManager.php(123): CAssetManager->setBasePath('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CAssetManager.php(217): CAssetManager->getBasePath()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/protected/extensions/yiibooster/components/Booster.php(413): CAssetManager->publish('/opt/lampp/htdo...', false, -1, false)
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/protected/extensions/yiibooster/components/packages.php(14): Booster->getAssetsUrl()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/protected/extensions/yiibooster/components/Booster.php(260): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/protected/extensions/yiibooster/components/Booster.php(246): Booster->appendUserSuppliedPackagesToOurs()
+#6 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/protected/extensions/yiibooster/components/Booster.php(214): Booster->includeAssets()
+#7 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CModule.php(394): Booster->init()
+#8 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CModule.php(530): CModule->getComponent('bootstrap')
+#9 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(168): CModule->preloadComponents()
+#10 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/YiiBase.php(125): CApplication->__construct(Array)
+#11 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): YiiBase::createWebApplication('/opt/lampp/htdo...')
+#13 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/
+---
+2018/08/07 20:39:31 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/aeb7e889/bootstrap/css/bootstrap.min.css" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/aeb7e889...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/assets/aeb7e889/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/
+---
+2018/08/07 20:39:31 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "jquery-1.3.2.min.js" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('jquery-1.3.2.mi...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/jquery-1.3.2.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/
+---
+2018/08/07 20:39:31 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/Logo.png" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Logo.png')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/images/Logo.png
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/
+---
+2018/08/07 20:39:31 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "jquery-1.3.2.min.js" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('jquery-1.3.2.mi...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/jquery-1.3.2.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/
+---
+2018/08/07 20:39:32 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff2" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:39:32 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:39:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/aeb7e889/bootstrap/css/bootstrap.min.css" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/aeb7e889...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/assets/aeb7e889/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:39:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/css/bo...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:39:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "jquery-1.3.2.min.js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('jquery-1.3.2.mi...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('jquery-1.3.2.mi...')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/jquery...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/jquery-1.3.2.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:39:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/css/cu...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/css/custom.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:39:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('js')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/js/boo...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:39:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/css/fo...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:39:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/Logo.png" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Logo.png')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/images/Logo.png
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:39:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/css/cu...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/css/custom.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:39:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "jquery-1.3.2.min.js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('jquery-1.3.2.mi...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('jquery-1.3.2.mi...')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/jquery...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/jquery-1.3.2.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:39:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff2" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:39:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Bold.woff2" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Bold.woff2
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:39:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:39:49 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/aeb7e889/bootstrap/css/bootstrap.min.css" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/aeb7e889...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/assets/aeb7e889/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/alquiler/admin
+---
+2018/08/07 20:39:49 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('js')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('alquiler/js/boo...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/alquiler/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/alquiler/admin
+---
+2018/08/07 20:39:49 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('alquiler/css/bo...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/alquiler/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/alquiler/admin
+---
+2018/08/07 20:39:49 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "jquery-1.3.2.min.js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('jquery-1.3.2.mi...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('jquery-1.3.2.mi...')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('alquiler/jquery...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/alquiler/jquery-1.3.2.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/alquiler/admin
+---
+2018/08/07 20:39:49 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('alquiler/css/cu...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/alquiler/css/custom.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/alquiler/admin
+---
+2018/08/07 20:39:49 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('alquiler/css/fo...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/alquiler/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/alquiler/admin
+---
+2018/08/07 20:39:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/Logo.png" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Logo.png')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/images/Logo.png
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/alquiler/admin
+---
+2018/08/07 20:39:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('js')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('alquiler/js/boo...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/alquiler/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/alquiler/admin
+---
+2018/08/07 20:39:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('alquiler/css/cu...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/alquiler/css/custom.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/alquiler/admin
+---
+2018/08/07 20:39:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('alquiler/css/fo...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/alquiler/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/alquiler/admin
+---
+2018/08/07 20:39:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "jquery-1.3.2.min.js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('jquery-1.3.2.mi...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('jquery-1.3.2.mi...')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('alquiler/jquery...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/alquiler/jquery-1.3.2.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/alquiler/admin
+---
+2018/08/07 20:39:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff2" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:39:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Bold.woff2" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Bold.woff2
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:39:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:39:55 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/aeb7e889/bootstrap/css/bootstrap.min.css" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/aeb7e889...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/assets/aeb7e889/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/site/index
+---
+2018/08/07 20:39:55 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "jquery-1.3.2.min.js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('jquery-1.3.2.mi...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('jquery-1.3.2.mi...')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/jquery-1.3...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/site/jquery-1.3.2.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/site/index
+---
+2018/08/07 20:39:55 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/Logo.png" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Logo.png')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/images/Logo.png
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/site/index
+---
+2018/08/07 20:39:55 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff2" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:39:56 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:40:00 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/aeb7e889/bootstrap/css/bootstrap.min.css" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/aeb7e889...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/assets/aeb7e889/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:40:01 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/css/bo...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:40:01 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('js')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/js/boo...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:40:01 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/css/cu...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/css/custom.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:40:01 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "jquery-1.3.2.min.js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('jquery-1.3.2.mi...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('jquery-1.3.2.mi...')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/jquery...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/jquery-1.3.2.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:40:01 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/Logo.png" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Logo.png')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/images/Logo.png
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:40:01 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/css/fo...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:40:03 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "jquery-1.3.2.min.js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('jquery-1.3.2.mi...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('jquery-1.3.2.mi...')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('cruge/ui/jquery...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/cruge/ui/jquery-1.3.2.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/cruge/ui/login
+---
+2018/08/07 20:40:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Bold.woff2" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Bold.woff2
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:40:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff2" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:40:04 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:41:06 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "jquery-1.3.2.min.js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('jquery-1.3.2.mi...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('jquery-1.3.2.mi...')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/jquery-1.3...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/site/jquery-1.3.2.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/site/index
+---
+2018/08/07 20:41:06 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "assets/aeb7e889/bootstrap/css/bootstrap.min.css" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/aeb7e889...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/assets/aeb7e889/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/site/index
+---
+2018/08/07 20:41:06 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "images/Logo.png" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/Logo.png')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/images/Logo.png
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/site/index
+---
+2018/08/07 20:41:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "jquery-1.3.2.min.js" solicitada. in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CController.php(270): CController->missingAction('jquery-1.3.2.mi...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(282): CController->run('jquery-1.3.2.mi...')
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/jquery-1.3...')
+#3 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/site/jquery-1.3.2.min.js
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/site/index
+---
+2018/08/07 20:41:07 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff2" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
+2018/08/07 20:41:08 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "fuentes/Roboto-Regular.woff" in /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fuentes/Roboto-...')
+#1 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/Proyectos/alquilervehiculoud/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyectos/alquilervehiculoud/fuentes/Roboto-Regular.woff
+HTTP_REFERER=http://localhost:8080/Proyectos/alquilervehiculoud/css/custom.css
+---
