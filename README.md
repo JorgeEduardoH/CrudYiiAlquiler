@@ -45,13 +45,13 @@ Realizado con la arquitectura mvc que se  encuentra en
 ejemplo de linux 
 
    - estando en /protected
-
-      sudo chmod -R 0777 runtime
- 
+   ```
+      $ sudo chmod -R 0777 runtime
+   ```
    - estando en la raiz del proyecto /
- 
-        sudo chmod -R 0777 assets
-
+     ```
+      $ sudo chmod -R 0777 assets
+```
 ####4 correr en navegador
 
 ejemplo en local
